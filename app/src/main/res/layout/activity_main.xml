@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <hankin.pablegroup.pable.PableGroup
+        android:id="@+id/pg_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <hankin.pablegroup.pable.head.EmptyHView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <hankin.pablegroup.pable.pview.PLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/ffffff">
+
+            <TextView
+                android:id="@+id/tv_main_sv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:onClick="click"
+                android:text="ScrollView"/>
+            <TextView
+                android:id="@+id/tv_main_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:onClick="click"
+                android:text="ListView"/>
+
+        </hankin.pablegroup.pable.pview.PLinearLayout>
+
+        <hankin.pablegroup.pable.foot.EmptyFView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </hankin.pablegroup.pable.PableGroup>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PableGroup</string>
+    <string name="chakangengduo">查看更多</string>
+    <string name="shifangjiazai">释放加载</string>
+    <string name="list_loading_prompt">加载中...</string>
+    <string name="xialashuaxin">下拉刷新</string>
+    <string name="shifangshuaxin">释放刷新</string>
+    <string name="shuaxinzhong">刷新中...</string>
+    <string name="shuaxinchenggong">刷新成功</string>
+    <string name="shuaxinshibai">刷新失败</string>
+</resources>
